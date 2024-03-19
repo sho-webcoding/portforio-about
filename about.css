@@ -50,11 +50,22 @@ section .btn {
   border: 2px solid black;
   border-radius: 70px;
   margin: 0 auto;
+  transition: 0.2s;
+}
+section .btn:hover {
+  transform: scale(1.06);
 }
 @media screen and (max-width: 936px) {
   section .btn {
     padding: 16px 110px;
     border: 2px solid black;
+  }
+}
+@media screen and (max-width: 480px) {
+  section .btn {
+    padding: 14px 32px;
+    border: 1px solid black;
+    font-size: 12px;
   }
 }
 
